@@ -1,0 +1,15 @@
+cmd: python clean_data.py
+deps:
+- path: clean_data.py
+  hash: md5
+  md5: 6f6015aab6648c403a0cc0094703194b
+  size: 636
+- path: data/raw.csv
+  hash: md5
+  md5: bd96f2697d0db783899acf267c54e426
+  size: 30343
+outs:
+- path: data/clean.csv
+  hash: md5
+  md5: 3d9951fae53a7d6afbf354a8d65a15d3
+  size: 25599
